@@ -8,7 +8,8 @@ Laravel pusher groups chat
   - Clone Project
   - Create a new DB for the project
   - Copy .env.example file and rename to .env and set necessary ENV variables.
-  - Setup QueueJob(in my case it was sqs)
+  - Setup QueueJob(in my case: sqs)
+  - Setup Broadcast(in my case: pusher)
   - Follow below commands
     ```
     $ composer install
